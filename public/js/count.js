@@ -1,2 +1,5 @@
-var data-id="101457243";
-import "http://static.getclicky.com/js";
+var script = document.createElement('script');
+script.setAttribute('type','text/javascript');
+script.setAttribute('data-id','101457243');
+script.setAttribute('src', "http://static.getclicky.com/js");
+document.getElementsByTagName('html')[0].appendChild(script);
